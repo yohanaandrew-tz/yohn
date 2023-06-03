@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web developer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Web design,Web designer,Web developer,Web development,Fronted developer,Graphic design,Graphics,Graphic designer,Backend developer,Website,Full stack developer,Blog,Yohana Andrew">
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/yohana.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style> 
+
+        </style>
+        <script src="js/w3.js"></script>
+        <script src="js/NavBar.js"></script>
+        <script src="js/SkillsTab.js"></script>
+        <script src="js/ServiceTab.js"></script>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="" class="active"><i class="fa fa-home"></i></a>
+            <a href="docs/Database & DBMS.pdf">My CV</a>
+            <a href="#proj">Projects</a>
+            <div class="dropdown">
+              <button class="dropbtn">Contact
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="mailto:yohanaandrew129@gmail.com">Email</a>
+                <a href="https://wa.me/+255753940450?text=Hi">WhatsApp</a>
+                <a href="https://telegram.me/yohana_andrew_tz">Telegram</a>
+              </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+
+          <div class="w3-row-padding">
+            <div class="w3-quarter w3-center">
+                <img src="images/YOHN.jpg" height="" width="50%" class="idphoto">
+            </div>
+            <div class="w3-threequarter w3-card-4">
+                <p id="about">Welcome to my web portfolio! 
+                    I'm <b>Yohana Andrew</b>, a passionate <b>web developer</b> and <b>graphic designer</b>. 
+                    With a keen eye for aesthetics and a love for creating user-friendly experiences, 
+                    I strive to deliver top-notch solutions that leave a lasting impression. 
+                    Explore my work and let's collaborate on your next project.</p>
+                <p>I'm thrilled to invite you to explore my work, skills and professional exprience, and get to know a bit more about me. 
+                    A born go-better. I give 100% to every new project I take on. 
+                    It's my firm belief that a good challenge is a great way to develop and improve, 
+                    which is why I make a point of seeking out challenges in the professional realms as well as in my personal life. 
+                    Take a moment to look around, and contact me.</p>
+            </div>
+          </div>
+          <h3>My Skills</h3>
+          <div class="w3-row-padding">
+          <div class="w3-card-4">
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button tablink w3-blue" onclick="openSkill(event,'web')">Web</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openSkill(event,'graphic')">Graphics</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openSkill(event,'other')">Others</button>
+            </div>
+
+            <div class="w3-half">
+            <div id="web" class="w3-container w3-border skill">
+                <h2><i class="fa fa-html5"></i></h2>
+                <p>I'm a skilled web designer & developer. My expertise lies in front-end development, responsive design, UI/UX design, and branding</p>
+                <i>I have skills on the following Tools</i><br>
+                 <b>Basics</b>
+                 <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>javascript</li>
+                 </ul>
+                 <b>Back-end</b>
+                 <ul>
+                    <li>PHP</li>
+                    <li>MySQL DataBase</li>
+                 </ul>
+                 <b>Frameworks</b>
+                 <ul>
+                    <li>w3-CSS</li>
+                    <li>w3-JS</li>
+                 </ul>
+              </div>
+              
+              
+            
+              <div id="graphic" class="w3-container w3-border skill" style="display:none">
+                <h2><i class="fa fa-gg"></i></h2>
+                <p>My Tools for Graphic design are:</p> 
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Premere</li>
+                    <li>Microsoft PowerPoint</li>
+                </ul>
+                <p>Contact me now, I wil visualize your idea</p>
+              </div>
+              <div id="other" class="w3-container w3-border skill" style="display:none">
+                <h2><i class="fa fa-desktop"></i></h2>
+                <p>My other skills are:</p>
+                <ul>
+                    <li>PC Maintainance</li>
+                    <li>Database design</li>
+                    <li>System Analysis & Design</li>
+                </ul> 
+              </div>
+            </div>
+
+              <div class="w3-half">
+              <div class="w3-half">
+                <img class="lang" src="images/html.png" width="100%">
+                <img class="lang" src="images/ps.jpeg" width="100%">
+                <img class="lang" src="images/maintenance.png" width="100%">
+
+                <script>
+                w3.slideshow(".lang", 2000);
+                </script>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+        <h3>Services</h3>
+        <div class="w3-row-padding">
+            <div class="w3-container w3-third w3-center">
+                <img src="images/my-poster.jpg" width="75%">
+            </div>
+            <div class="w3-card-4 w3-twothird">
+                <h2><i class="fa fa-briefcase"></i></h2>
+                <i>Websites</i>
+                <ul>
+                    <li>portfolios</li>
+                    <li>E-commerce</li>
+                    <li>Media Website</li>
+                    <li>Others</li>
+                </ul>
+
+                <i>Graphic services</i>
+                <ul>
+                    <li>Logo Design</li>
+                    <li>Posters</li>
+                    <li>Ohers</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="proj">Projects</h3>
+        <div class="w3-row-padding">
+            <div class="w3-card-4">
+                <h2><i class="fa fa-line-chart"></i></h2>
+                <table class="w3-table-all">
+                    <tr>
+                        <th>Name</th> <th>Description</th> <th>Date</th> <th>View</th>
+                    </tr>
+                    <tr>
+                        <td>User Ms</td> <td>The system to manage users. Storing, Eding & Deleting their information</td> <td>Jan 2023</td> <td><a href="https://yohanaandrew-tz.github.io/bap/"><i class="fa fa-eye"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Radio Web</td> <td>The website for the commercial radio station</td> <td>Dec 2022</td> <td><a href="https://yohanaandrew-tz.github.io/radio/"><i class="fa fa-eye"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Stationery</td> <td>It's a website for advertising stationry services</td> <td>Dec 2022</td> <td><a href="https://yohanaandrew-tz.github.io/stationery/"><i class="fa fa-eye"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>Computer-online</td> <td>This is the website that offer basic computer skills</td> <td>Jun 2022</td> <td><a href="https://yohanaandrew-tz.github.io/learn-computer/"><i class="fa fa-eye"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td>My Port</td> <td>This is my own first Web Portifolio</td> <td>May 2022</td> <td><a href="https://yohanaandrew-tz.github.io/yohanaandrew-tz/"><i class="fa fa-eye"></i></a></td>
+                    </tr>
+
+                </table>
+                <p><a href="https://github.com/yohanaandrew-tz">View more project on my GitHub account</a></p>
+            </div>
+        </div>
+
+        <h3>Contact me</h3>
+        <div class="w3-row-padding">
+            <div class="w3-card-4">
+                <h2><i class="fa fa-envelope"></i></h2>
+                <form style="padding: 10px;" action="php/message.php" method="post">
+                    <label><i class="fa fa-user" style="color:blue; font-size: 24px;"></i></label>
+                    <input class="w3-input" type="text" name="name" placeholder="Enter your name" required>
+                    <label><i class="fa fa-envelope" style="color:blue; font-size: 24px;"></i></label>
+                    <input class="w3-input" type="email" name="email" placeholder="Enter your email" required>
+                    <label><i class="fa fa-comment" style="color:blue; font-size: 24px;"></i></label>
+                    <input class="w3-input" type="text" name="message" placeholder="Type a short comment here" required><br>
+                    <input class="w3-button w3-blue" type="submit" value="Submit">
+                    <br>
+                    </form>
+
+            </div>
+        </div>
+    </body>
+
+    <a id="ctc" href="https://wa.me/+255753940450?text=Hi"><i class="fa fa-whatsapp" style="font-size:48px;"></i></a>
+
+    <footer>
+        <div class="w3-container w3-black w3-center">
+            <div class="w3-bar">
+                <a href="https://wa.me/+255753940450?text=Hi" class="w3-button"><i class="fa fa-whatsapp" style="font-size: 24px;"></i></a>
+                <a href="http://m.facebook.com/yohana.andrew.777" class="w3-button"><i class="fa fa-facebook-square" style="font-size: 24px;"></i></a>
+                <a href="http://instagram.com/yohana_andrew_tz" class="w3-button"><i class="fa fa-instagram" style="font-size: 24px;"></i></a>
+                <a href="mailto:yohanaandrew129@gmail.com" class="w3-button"><i class="fa fa-envelope" style="font-size: 24px;"></i></a>
+                <a href="https://telegram.me/yohana_andrew_tz" class="w3-button"><i class="fa fa-telegram" style="font-size: 24px;"></i></a>
+               </div>
+            <p><i class="fa fa-map-marker"></i>  Morogoro, Tanzania</p><hr>
+       &copy: 2023 Design by <b><a href="login.html">Me</a></b>
+       <p><i class="fa fa-phone"></i> +255753940450</p>
+       <p>
+        Last updated on: <script type="text/javascript">document.write(document.lastModified);</script>  
+       </p>
+        </div>
+    </footer>
+</html>
